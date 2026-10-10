@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>My Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="weather-container">
+
+        <!-- Header -->
+        <header>
+
+            <div class="logo">
+                🌙 Weather App
+            </div>
+
+            <nav>
+                <a href="#today">Today</a>
+                <a href="#forecast">Forecast</a>
+            </nav>
+
+        </header>
+
+
+        <!-- Today's Weather -->
+        <section class="today" id="today">
+
+            <div class="heading">
+
+                <p>GOOD EVENING</p>
+
+                <h1>Weather Today</h1>
+
+                <span>
+                    Check the current weather of your city
+                </span>
+
+            </div>
+
+
+            <!-- Search Bar -->
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    placeholder="Enter city name"
+                >
+
+                <button>
+                    🔍 Search
+                </button>
+
+            </div>
+
+
+            <!-- Weather Card -->
+            <div class="weather-card">
+
+                <div class="weather-info">
+
+                    <h2>Lucknow</h2>
+
+                    <p>Today's Weather</p>
+
+                    <div class="temperature">
+                        29°
+                    </div>
+
+                    <h3>🌤️ Partly Cloudy</h3>
+
+                </div>
+
+
+                <!-- Emoji Weather Area -->
+                <div class="weather-scene">
+
+                    <div class="stars">
+                        ✦ &nbsp; ✧ &nbsp; ✦
+                    </div>
+
+                    <div class="moon">
+                        🌙
+                    </div>
+
+                    <div class="big-cloud">
+                        ☁️
+                    </div>
+
+                    <div class="small-cloud">
+                        ☁️
+                    </div>
+
+                    <p>Clear Night</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hourly Weather -->
+           <section class="hourly-section">
+
+            <h2>Hourly Weather</h2>
+
+            <p class="forecast-subtitle">
+                Today's weather by hour
+            </p>
+
+            <div class="hourly-list">
+
+                <div class="hour-card">
+                    <span>3 PM</span>
+                    <div class="hour-emoji">☀️</div>
+                    <h3>34°C</h3>
+                    <p>Sunny</p>
+                </div>
+
+                <div class="hour-card">
+                    <span>4 PM</span>
+                    <div class="hour-emoji">🌤️</div>
+                    <h3>34°C</h3>
+                    <p>Hazy</p>
+                </div>
+
+                <div class="hour-card">
+                    <span>5 PM</span>
+                    <div class="hour-emoji">☁️</div>
+                    <h3>33°C</h3>
+                    <p>Cloudy</p>
+                </div>
+
+                <div class="hour-card">
+                    <span>6 PM</span>
+                    <div class="hour-emoji">🌤️</div>
+                    <h3>30°C</h3>
+                    <p>Sunset</p>
+                </div>
+
+                <div class="hour-card">
+                    <span>7 PM</span>
+                    <div class="hour-emoji">🌙</div>
+                    <h3>30°C</h3>
+                    <p>Clear</p>
+                </div>
+
+                <div class="hour-card">
+                    <span>8 PM</span>
+                    <div class="hour-emoji">🌙</div>
+                    <h3>29°C</h3>
+                    <p>Clear</p>
+                </div>
+            </div>
+           </section>
+
+
+        <!-- Forecast -->
+        <section class="forecast" id="forecast">
+
+            <h2>5 Day Forecast</h2>
+
+            <p class="forecast-subtitle">
+                Weather for the coming days
+            </p>
+
+
+            <div class="forecast-list">
+
+
+                <div class="forecast-card">
+
+                    <span>Saturday</span>
+
+                    <div class="forecast-emoji">
+                        ☀️
+                    </div>
+
+                    <h3>31°C</h3>
+
+                    <p>Sunny</p>
+
+                </div>
+
+
+                <div class="forecast-card">
+
+                    <span>Sunday</span>
+
+                    <div class="forecast-emoji">
+                        🌤️
+                    </div>
+
+                    <h3>30°C</h3>
+
+                    <p>Partly Cloudy</p>
+
+                </div>
+
+
+                <div class="forecast-card">
+
+                    <span>Monday</span>
+
+                    <div class="forecast-emoji">
+                        ☁️
+                    </div>
+
+                    <h3>28°C</h3>
+
+                    <p>Cloudy</p>
+
+                </div>
+
+
+                <div class="forecast-card">
+
+                    <span>Tuesday</span>
+
+                    <div class="forecast-emoji">
+                        🌧️
+                    </div>
+
+                    <h3>27°C</h3>
+
+                    <p>Rainy</p>
+
+                </div>
+
+
+                <div class="forecast-card">
+
+                    <span>Wednesday</span>
+
+                    <div class="forecast-emoji">
+                        ⛈️
+                    </div>
+
+                    <h3>26°C</h3>
+
+                    <p>Stormy</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+
+            <p>My Weather App | Student Project</p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
